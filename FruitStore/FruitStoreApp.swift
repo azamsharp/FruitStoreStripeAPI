@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Stripe
 
 @main
 struct FruitStoreApp: App {
+    
+    init() {
+        StripeAPI.defaultPublishableKey = "YOURPUBLISHABLEKEY"
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Cart())
         }
     }
 }

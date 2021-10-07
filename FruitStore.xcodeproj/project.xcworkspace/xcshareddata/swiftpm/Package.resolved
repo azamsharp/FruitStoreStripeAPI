@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Stripe",
+        "repositoryURL": "https://github.com/stripe/stripe-ios.git",
+        "state": {
+          "branch": "master",
+          "revision": "fabd7ebe14052d505466ffe824b49eeab3778501",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
